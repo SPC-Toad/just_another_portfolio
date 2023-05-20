@@ -10,8 +10,19 @@
 #project-title {
     display: flex;
     align-items: center;
+    justify-content: left;
+    width: 80%;
+    height: 150px;
 }
 
 #line {
     width: 150px;
+}
+
+#project-list {
+    display: flex;
+    width: 80%;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
