@@ -3,6 +3,9 @@ import Navbar from '../Navbar/Navbar';
 import Intro from '../Intro/Intro';
 import Project from '../Project/Project';
 import Military from '../Military/Military';
+import Contact from '../../Contact/Contact';
+import Entertainment from '../../Entertainment/Entertainment';
+import Footer from '../Footer/Footer';
 import './Home.css';
 
 function Home() {
@@ -12,6 +15,9 @@ function Home() {
         <Intro />
         <Project />
         <Military />
+        <Contact />
+        <Entertainment />
+        <Footer />
     </div>
   )
 }

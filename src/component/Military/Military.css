@@ -1,0 +1,19 @@
+#military-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5%;
+}
+
+#paragraph-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+#award-list {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}

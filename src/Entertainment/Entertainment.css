@@ -1,0 +1,5 @@
+#paragraph-text-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}

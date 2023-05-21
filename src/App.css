@@ -46,3 +46,31 @@ body{
     border-style: solid;
     border-color: #4a5a49;
 }
+
+.section-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-section-container {
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 80%;
+    height: 150px;
+}
+
+.line {
+    width: 150px;
+}
