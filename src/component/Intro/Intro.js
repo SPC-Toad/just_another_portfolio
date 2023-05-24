@@ -15,7 +15,7 @@ function Intro() {
         <a href={ Resume } className='button'>RESUME / CV</a>
       </div>
       <div id='right-container'>
-        <img src={ Me } />
+        <img src={ Me } alt='no-img'/>
         <div id='description'>
           <li id='bullet-point' />
           <p className='sub-text-1'>Currently studying at&nbsp;</p>

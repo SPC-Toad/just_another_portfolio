@@ -12,9 +12,13 @@ function Home() {
   return (
     <div className='main'>
         <Navbar />
+        <div id='HOME' />
         <Intro />
+        <div id='PROJECT' />
         <Project />
+        <div id='MILITARY' />
         <Military />
+        <div id='CONTACT' />
         <Contact />
         <Entertainment />
         <Footer />

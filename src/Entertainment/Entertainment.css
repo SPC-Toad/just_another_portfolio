@@ -1,5 +1,14 @@
 #paragraph-text-2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 60%;
+}
+
+
+@media only screen and (max-width: 1382px) {
+    #paragraph-text-2 {
+        width: 80%;
+    }
 }

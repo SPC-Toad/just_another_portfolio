@@ -1,6 +1,7 @@
 #intro-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 65%;
     height: 100vh;
 }
@@ -48,4 +49,10 @@
     list-style-type: square;
     font-size: 30px;
     color: #4a5a49;
+}
+
+@media only screen and (max-width: 1382px) {
+    #intro-container {
+        min-height: 150vh;
+    }
 }

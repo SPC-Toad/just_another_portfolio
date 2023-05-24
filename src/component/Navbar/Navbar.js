@@ -1,15 +1,17 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 import './Navbar.css';
+import logo from '../../visual/logo.png';
 
 function Navbar() {
   return (
       <div className='nav-items'>
-          <div id='section_logo'>LOGO</div>
+          <Link id='section_item' to="HOME" spy={true} smooth={true} offset={0} duration={500}><img id='logo' src={logo} alt='HOME'/></Link>
           <ul id='section_list'>
-              <li id='section_item'>PROJECT</li>
-              <li id='section_item'>MILITARY</li>
-              <li id='section_item'>ENTERTAINMENT</li>
-          </ul>
+            <Link id='section_item' to="PROJECT" spy={true} smooth={true} offset={-50} duration={500}>PROJECT</Link>
+            <Link id='section_item' to="MILITARY" spy={true} smooth={true} offset={-50} duration={500}>MILITARY</Link>
+            <Link id='section_item' to="CONTACT" spy={true} smooth={true} offset={-50} duration={500}>CONTACTS</Link>
+        </ul>
       </div>
   )
 }
