@@ -6,7 +6,7 @@ import logo from '../../visual/logo.png';
 function Navbar() {
   return (
       <div className='nav-items'>
-          <Link id='section_item' to="HOME" spy={true} smooth={true} offset={0} duration={500}><img id='logo' src={logo} alt='HOME'/></Link>
+          <Link to="HOME" spy={true} smooth={true} offset={0} duration={500}><img id='logo' src={logo} alt='HOME'/></Link>
           <ul id='section_list'>
             <Link id='section_item' to="PROJECT" spy={true} smooth={true} offset={-50} duration={500}>PROJECT</Link>
             <Link id='section_item' to="MILITARY" spy={true} smooth={true} offset={-50} duration={500}>MILITARY</Link>

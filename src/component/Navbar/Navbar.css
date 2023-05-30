@@ -4,7 +4,7 @@
     width: 100%;
     height: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     z-index: 2;
     background-color: #1E1E1E;
@@ -16,38 +16,57 @@
     overflow-x: visible;
     list-style-type: none;
     justify-content: space-evenly;
+    height: 100%;
 }
 
 #section_item {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
+    height: 100%;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    opacity: .2;
+}
+
+#section_item:hover {
+    animation: text-flicker 2s linear infinite;
+    transition: 2s;
 }
 
 #logo {
-    width: 3rem;
-    filter: invert(1);
-    background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  background: transparent;
+}
+
+#logo:hover {
+  filter: invert(1);
+  transition: .7s;
 }
 
 @media only screen and (max-width: 1382px) {
     /* Add your CSS styles here */
     .nav-items {
-        top: 0;
-        margin: 0;
-        padding: 0;
-        height: 4rem;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+      top: 0;
+      position: fixed;
+      margin: 0;
+      padding: 0;
+      height: 4rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
     }
 
     #logo{
-        width: 1.5rem;
+        width: 2rem;
     }
 
     #section_list {
@@ -63,4 +82,58 @@
         padding: 0;
     }
 
+}
+
+@keyframes text-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    8% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    12% {
+      opacity:0.1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    25% {
+      opacity:0.3;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    
+    72% {
+      opacity:0.2;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
+    100% {
+      opacity:.9;
+      text-shadow: 0px 0px 29px whitesmoke;
+    }
 }
