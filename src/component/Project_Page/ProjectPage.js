@@ -28,7 +28,7 @@ function ProjectPage() {
               picture={ Seq }
               title={'Sequence Alignment'}
               language={'Java'}
-              description={'Implimenting DNA alignment using Dynamic Programming'}
+              description={'Implementing DNA alignment using Dynamic Programming'}
               link={'https://github.com/SPC-Toad/UmassBoston_projects/tree/6fab3bee01eef21e856fdef512db8806857b96bb/Backend/Java/Sequence%20Alignment'}
             />
             <Card 
@@ -56,14 +56,14 @@ function ProjectPage() {
               picture={ dijkstra }
               title={'Map Routing Dijkstra algorithm'}
               language={'Java'}
-              description={'Implimenting shortest route from start node to end node using dijkstra algorithm'}
+              description={'Implementing shortest route from start node to end node using dijkstra algorithm'}
               link={'https://github.com/SPC-Toad/UmassBoston_projects/tree/6fab3bee01eef21e856fdef512db8806857b96bb/Backend/Java/Map%20Routing%20Dijkstra'}
             />
             <Card 
               picture={ Astar }
               title={'Map Routing A* algorithm'}
               language={'Java'}
-              description={'Implimenting shortest route from start node to end node using A* version of dijkstra algorithm. (Greedy Algorithm)'}
+              description={'Implementing shortest route from start node to end node using A* version of dijkstra algorithm. (Greedy Algorithm)'}
               link={'https://github.com/SPC-Toad/UmassBoston_projects/tree/6fab3bee01eef21e856fdef512db8806857b96bb/Backend/Java/Map%20Routing%20Astar'}
             />
             <Card 
