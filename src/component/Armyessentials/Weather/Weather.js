@@ -23,7 +23,7 @@ function Weather() {
 
     useEffect(() => {
         fetchData();
-    }, [location]);
+    });
 
   return (
     <div id='weather-container'>
