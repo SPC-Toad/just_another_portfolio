@@ -58,6 +58,23 @@ body{
     border-width: 2px;
     border-style: solid;
     border-color: #4a5a49;
+    transition: 4s;
+    opacity: .4;
+}
+
+.button:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 8rem;
+    height: 2.5rem;
+    border-width: 4px;
+    border-style: double;
+    border-color: rgb(199, 199, 199);
+    box-shadow: 0rem 0rem 1rem #4a5a49;
+    transition: 2s;
+    opacity: 1;
 }
 
 .section-container {
@@ -99,11 +116,15 @@ body{
     border-color: #4a5a49;
     margin: 2px;
     text-decoration: none;
+    transition: 3s;
+    opacity: .4;
 }
 
 .link-button-2:hover {
+    opacity: 1;
     background-color: #4a5a49;
     border-color: rgb(199, 199, 199);
+    transition: 1.5s;
 }
 
 @media only screen and (max-width: 1382px) {

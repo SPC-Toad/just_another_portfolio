@@ -40,7 +40,7 @@ function Contact() {
             </li>
             <li id='contact-items'>
               <FontAwesomeIcon icon={faDiscord} id='list-items'/>
-              <div id='list-items-3'>SPC Toad#7198</div>
+              <div id='list-items-3'>spctoad</div>
             </li>
           </ul>
         </div>

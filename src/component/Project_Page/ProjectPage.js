@@ -1,5 +1,4 @@
 import React from 'react'
-import './ProjectPage.css';
 import Card from '../Card/Card';
 import Seq from '../../visual/seq_align.jpg';
 import Astar from '../../visual/Astar.jpg';

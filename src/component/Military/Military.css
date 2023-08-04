@@ -1,5 +1,6 @@
 #military-container {
-    width: 80%;
+    width: 50rem;
+    height: 13rem;
     display: flex;
     justify-content: center;
     column-gap: 2.5%;
@@ -8,15 +9,57 @@
 
 #paragraph-text {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: 35%;
+    width: 23rem;
+}
+
+#military-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #award-list {
-    width: 35%;
+    width: 23rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     list-style-type: none;
+}
+
+#army-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 4rem;
+}
+
+#army-essentials-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 12rem;
+    height: 2.5rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4a5a49;
+    transition: 4s;
+    opacity: .4;
+}
+
+#army-essentials-button:hover {
+    border-width: 4px;
+    border-style: double;
+    border-color: rgb(199, 199, 199);
+    box-shadow: 0rem 0rem 1rem #4a5a49;
+    transition: 2s;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 1382px) {

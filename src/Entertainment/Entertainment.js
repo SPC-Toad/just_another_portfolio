@@ -9,11 +9,8 @@ function Entertainment() {
           <div className='line'><hr /></div>
       </div>
       <p id='paragraph-text-2' className='sub-text-2'>
-        I like creating websites, 
-        implementing algorithms to solve problems, 
-        and enjoy weight-lifting. Besides Computer Science related activities,
-        I like to play video games and watch Dramas.
-        My favorite drama would be Itaewon Class.
+        I like creating websites and
+        implementing algorithms to solve problems. Besides Computer Science related activities, I enjoy exercising and listening to music.
       </p>
     </div>
   )

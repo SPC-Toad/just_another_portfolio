@@ -9,17 +9,19 @@ function Intro() {
       <div id='left-container'>
         <div id='para-text'>
           <p className='title-text-1'>I am Sangyun Kim and </p>
-          <p className='title-text-2'>software engineer</p>
+          <p className='title-text-2'>Software Engineer</p>
           <p className='sub-text-1'>I enjoy developing websites and data structures!</p>
         </div>
-        <a href={ Resume } className='button'>RESUME / CV</a>
+        <div id='button-container'>
+          <a href={ Resume } className='button'>RESUME / CV</a>
+        </div>
       </div>
       <div id='right-container'>
         <img src={ Me } alt='no-img'/>
         <div id='description'>
           <li id='bullet-point' />
-          <p className='sub-text-1'>Currently studying at&nbsp;</p>
-          <p className='sub-text-2'>UMass Boston</p>
+          <p id='description-text'>Currently studying at</p>
+          <p id='name-text'>Boston University</p>
         </div>
       </div>
     </div>

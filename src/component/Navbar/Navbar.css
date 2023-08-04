@@ -1,139 +1,82 @@
-.nav-items {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    height: 3rem;
+.nav-container {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    z-index: 2;
-    background-color: #1E1E1E;
+    height: 3rem;
+    width: 100%;
     flex-wrap: wrap;
 }
 
-#section_list {
+#section-list {
+    width: 30rem;
+    height: 3rem;
     display: flex;
-    overflow-x: visible;
-    list-style-type: none;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 100%;
+    align-items: center;
 }
 
-#section_item {
+#section-item {
+    opacity: 0.15;
+    width: 7.5rem;
     display: flex;
     justify-content: center;
+    transition: 3s;
+}
+
+#section-item:hover {
+    opacity: 1;
+    width: 7.5rem;
+    display: flex;
+    justify-content: center;
+    transition: 1.5s;
+}
+
+#time-container {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    height: 100%;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    opacity: .2;
-}
-
-#section_item:hover {
-    animation: text-flicker 2s linear infinite;
-    transition: 2s;
-}
-
-#logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 2.5rem;
-  background: transparent;
-}
-
-#logo:hover {
-  filter: invert(1);
-  transition: .7s;
 }
 
 @media only screen and (max-width: 1382px) {
-    /* Add your CSS styles here */
-    .nav-items {
-      top: 0;
-      position: fixed;
-      margin: 0;
-      padding: 0;
-      height: 4rem;
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-
-    #logo{
-        width: 2rem;
-    }
-
-    #section_list {
+    .nav-container {
+        margin: 0;
+        padding: 0;
         width: 100%;
+        height: 100vh;
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    #section_item {
+    
+    #section-list {
         width: 100%;
-        padding: 0;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
+    
+    #section-item {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        opacity: 0.3;
+    }
+    
+    #section-item:hover {
+        opacity: 1;
+    }
+    
+    #time-container {
+        width: 100%;
 
-}
-
-@keyframes text-flicker {
-    0% {
-      opacity:0.1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    
-    2% {
-      opacity:1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    8% {
-      opacity:0.1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    9% {
-      opacity:1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    12% {
-      opacity:0.1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    20% {
-      opacity:1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    25% {
-      opacity:0.3;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    30% {
-      opacity:1;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    70% {
-      opacity:0.7;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    
-    72% {
-      opacity:0.2;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    
-    77% {
-      opacity:.9;
-      text-shadow: 0px 0px 29px whitesmoke;
-    }
-    100% {
-      opacity:.9;
-      text-shadow: 0px 0px 29px whitesmoke;
     }
 }
