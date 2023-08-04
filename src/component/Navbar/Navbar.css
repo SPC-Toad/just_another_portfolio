@@ -14,7 +14,7 @@
     height: 3rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -39,6 +39,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#home-button {
+    background-color: #4a5a49;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: 80%;
 }
 
 @media only screen and (max-width: 1382px) {

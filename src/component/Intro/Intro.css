@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 65%;
-    min-height: 35rem;
+    height: 35rem;
 }
 
 #profile {
