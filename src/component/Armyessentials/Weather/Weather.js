@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, {useState, useEffect, useRef} from 'react'
 import './Weather.css'
-import {Keys as api} from '../../../Keys';
+import Keys from '../../../Keys';
 
 function Weather() {
     const [data, setData] = useState();
@@ -10,7 +10,7 @@ function Weather() {
 
     const inputRef = useRef();
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${api}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${Keys}`;
 
     const handleChange = () => {
         setLocation(inputRef.current.value);
